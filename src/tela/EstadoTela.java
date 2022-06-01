@@ -7,9 +7,11 @@ package tela;
 import entidade.Estado;
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.hibernate.Query;
 import persistencia.HibernateUtil;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -19,7 +21,7 @@ public class EstadoTela extends javax.swing.JDialog {
 
     private Estado estado = new Estado();
     private List<Estado> listaEstados = new ArrayList<>();
-
+    
     /**
      * Creates new form EstadoTela
      */
@@ -65,6 +67,8 @@ public class EstadoTela extends javax.swing.JDialog {
         
         
     }
+     
+     
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -255,7 +259,17 @@ public class EstadoTela extends javax.swing.JDialog {
     }//GEN-LAST:event_btCancelarActionPerformed
 
     private void btSalvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSalvarActionPerformed
-
+        if (cNome.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "O Campo Nome é Obrigatorio, Por favor Preeencher", "Aviso", JOptionPane.WARNING_MESSAGE);
+        
+            return;
+        }
+        
+        if (cSigla.getText().equals("")){
+            JOptionPane.showMessageDialog(null, "O Campo Sigla é Obrigatorio, Por favor Preeencher", "Aviso", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+        
         estado.setNome(cNome.getText());
         estado.setSigla(cSigla.getText());
 
@@ -268,6 +282,7 @@ public class EstadoTela extends javax.swing.JDialog {
         limparCampos();
         montaTabela();
         validaCampos("inicio");
+        
         // TODO add your handling code here:
     }//GEN-LAST:event_btSalvarActionPerformed
 
