@@ -1,0 +1,89 @@
+Aula3  C:\Users\jacks\OneDrive\Documentos\NetBeansProjects\Aula3
+  .idea
+  src
+    main
+      java
+        aula02
+          Aula02
+          Caneta
+    test
+  target
+    classes
+    generated-sources
+    maven-status
+    test-classes
+  pom.xml
+External Libraries
+  < 17 >  C:\Program Files\Java\jdk-17.0.2
+    java.base  library root
+    java.compiler  library root
+    java.datatransfer  library root
+    java.desktop  library root
+    java.instrument  library root
+    java.logging  library root
+    java.management  library root
+    java.management.rmi  library root
+    java.naming  library root
+    java.net.http  library root
+    java.prefs  library root
+    java.rmi  library root
+    java.scripting  library root
+    java.se  library root
+    java.security.jgss  library root
+    java.security.sasl  library root
+    java.smartcardio  library root
+    java.sql  library root
+    java.sql.rowset  library root
+    java.transaction.xa  library root
+    java.xml  library root
+    java.xml.crypto  library root
+    jdk.accessibility  library root
+    jdk.attach  library root
+    jdk.charsets  library root
+    jdk.compiler  library root
+    jdk.crypto.cryptoki  library root
+    jdk.crypto.ec  library root
+    jdk.crypto.mscapi  library root
+    jdk.dynalink  library root
+    jdk.editpad  library root
+    jdk.hotspot.agent  library root
+    jdk.httpserver  library root
+    jdk.incubator.foreign  library root
+    jdk.incubator.vector  library root
+    jdk.internal.ed  library root
+    jdk.internal.jvmstat  library root
+    jdk.internal.le  library root
+    jdk.internal.opt  library root
+    jdk.internal.vm.ci  library root
+    jdk.internal.vm.compiler  library root
+    jdk.internal.vm.compiler.management  library root
+    jdk.jartool  library root
+    jdk.javadoc  library root
+    jdk.jcmd  library root
+    jdk.jconsole  library root
+    jdk.jdeps  library root
+    jdk.jdi  library root
+    jdk.jdwp.agent  library root
+    jdk.jfr  library root
+    jdk.jlink  library root
+    jdk.jpackage  library root
+    jdk.jshell  library root
+    jdk.jsobject  library root
+    jdk.jstatd  library root
+    jdk.localedata  library root
+    jdk.management  library root
+    jdk.management.agent  library root
+    jdk.management.jfr  library root
+    jdk.naming.dns  library root
+    jdk.naming.rmi  library root
+    jdk.net  library root
+    jdk.nio.mapmode  library root
+    jdk.random  library root
+    jdk.sctp  library root
+    jdk.security.auth  library root
+    jdk.security.jgss  library root
+    jdk.unsupported  library root
+    jdk.unsupported.desktop  library root
+    jdk.xml.dom  library root
+    jdk.zipfs  library root
+Scratches and Consoles

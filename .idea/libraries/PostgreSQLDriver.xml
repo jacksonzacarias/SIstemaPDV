@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="PostgreSQLDriver">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../Área de Trabalho/Bibliotecas Hibernate/PostgreSQLDriver" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../Área de Trabalho/Bibliotecas Hibernate/PostgreSQLDriver" recursive="false" />
+  </library>
+</component>
